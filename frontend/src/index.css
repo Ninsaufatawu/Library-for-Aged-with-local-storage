@@ -1,0 +1,22 @@
+/* src/index.css or src/App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom dark mode styles */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-100 text-gray-900; /* Default light mode styles */
+}
+
+body.dark {
+  @apply bg-gray-900 text-gray-100; /* Dark mode styles */
+}
+
+#root {
+  height: 100%;
+}

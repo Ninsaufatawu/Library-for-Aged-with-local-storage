@@ -1,0 +1,71 @@
+{
+  "categories": {
+    "science": [
+      {
+        "id": 1722635629706,
+        "title": "ninsau",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "ss",
+        "image": "1722635629531-JourneyOfSouls.jpg",
+        "pdf": "1722635629533-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722636428247,
+        "title": "babz",
+        "author": "my",
+        "description": "for heavy items",
+        "published": "ss",
+        "image": "1722636427956-JourneyOfSouls.jpg",
+        "pdf": "1722636427958-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722642275786,
+        "title": "man",
+        "author": "deff",
+        "description": "for for light weight items",
+        "published": "jsjsjjjsjsjs",
+        "image": "1722642274843-JourneyOfSouls.jpg",
+        "pdf": "1722642274911-power.pdf"
+      }
+    ],
+    "politics": [
+      {
+        "id": 1722635535679,
+        "title": "baba",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1722635535148-JourneyOfSouls.jpg",
+        "pdf": "1722635535150-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722635806526,
+        "title": "nin",
+        "author": "ss",
+        "description": "for heavy items",
+        "published": "ss",
+        "image": "1722635805751-JourneyOfSouls.jpg",
+        "pdf": "1722635805753-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722636966153,
+        "title": "baba",
+        "author": "nin",
+        "description": "for for light weight items",
+        "published": "a",
+        "image": "1722636965969-JourneyOfSouls.jpg",
+        "pdf": "1722636965971-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722637083706,
+        "title": "nam",
+        "author": "a",
+        "description": "jjsjsjsjs",
+        "published": "3938",
+        "image": "1722637083549-JourneyOfSouls.jpg",
+        "pdf": "1722637083550-JourneyOfSouls.pdf"
+      }
+    ]
+  }
+}
