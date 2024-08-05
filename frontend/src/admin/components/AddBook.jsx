@@ -64,7 +64,7 @@ function AddBook({ categories, fetchBooks }) {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg flex-1 lg:w-1/2">
+    <div className="flex-1 lg:w-1/2 bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg">
       {/* Dialog */}
       {isDialogOpen && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center z-50">

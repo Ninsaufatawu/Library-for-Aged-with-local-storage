@@ -29,8 +29,8 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold text-white">Library Admin Dashboard</h1>
         <div className="flex items-center">
-          <Link to="/" className="mr-4">Categories</Link>
-          <Link to="/books">Books</Link>
+          <Link to="/categories" className="mr-4">Categories</Link>
+          <Link to="/">Books</Link>
           <button onClick={toggleTheme} className="ml-4">
             {isDarkMode ? <FaSun size={24} /> : <FaMoon size={24} />}
           </button>
