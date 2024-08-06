@@ -1,9 +1,10 @@
 import ProfileSection from "./ProfileSection";
+import profileImage from "../assets/IMG-20240508-WA0030-removebg-preview.png"
 
 
 const activities = [
-  { id: 1, name: 'Uzachi #4390', from: 'Ragnarok Meta', eth: 2.15, img: 'path-to-image.jpg' },
-  { id: 2, name: 'Doodles #3486', from: 'Doodles', eth: 4.42, img: 'path-to-image.jpg' },
+  { id: 1, name: 'Uzachi #4390', from: 'Ragnarok Meta', eth: 2.15, img: 'ProfileSection' },
+  { id: 2, name: 'Doodles #3486', from: 'Doodles', eth: 4.42, img: 'ProfileSection' },
   { id: 3, name: 'Murakami #2766', from: 'Murakami', eth: 1.08, img: 'path-to-image.jpg' },
   { id: 4, name: 'Doodles #2761', from: 'Murakami', eth: 4.4, img: 'path-to-image.jpg' },
 
@@ -11,7 +12,7 @@ const activities = [
 
 const FeaturedSection = () => {
   return (
-    <div className="flex justify-end p-4 h-screen flex-col dark:bg-gray-800">
+    <div className="flex justify-end p-4 h-screen flex-col dark:bg-gray-700">
       <div className=" -top-12 relative ">
         <ProfileSection/>
       </div>
@@ -20,7 +21,7 @@ const FeaturedSection = () => {
           <h2 className="text-xl font-semibold mb-4 dark:bg-gray-800">Featured Creators</h2>
           <div className="flex items-center mb-4 dark:bg-gray-800 dark:text-white">
             <img 
-              src="https://path-to-murakami-flowers-image.jpg" 
+              src={profileImage}
               alt="Murakami Flowers" 
               className="w-16 h-16 rounded-full mr-4"
             />

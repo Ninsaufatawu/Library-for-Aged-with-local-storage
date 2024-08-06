@@ -8,7 +8,7 @@ import profileImage from "../assets/IMG-20240508-WA0030-removebg-preview.png"
 
 const SideBar = () => {
   return (
-    <div className="h-screen w-60 dark:bg-gray-800 bg-slate-50 flex flex-col p-4">
+    <div className="h-screen w-60  dark:bg-slate-700 bg-slate-50 flex flex-col p-4">
       <div className="flex items-center mb-6">
         <img src={profileImage} alt="Profile" className="w-12 h-12 rounded-full mr-4" />
         <div>
@@ -24,7 +24,7 @@ const SideBar = () => {
 
                 className={({ isActive }) =>
                   `flex items-center p-2 rounded-lg hover:bg-gray-200  
-                ${isActive ? '  bg-slate-200    ' : ' dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 '}`
+                ${isActive ? '  bg-slate-200    ' : '  dark:text-gray-300 dark:hover:bg-gray-800'}`
                 }
                 >
                    
@@ -38,7 +38,7 @@ const SideBar = () => {
             to="/Categories" 
             className={({ isActive }) =>
               `flex items-center p-2 rounded-lg hover:bg-gray-200  
-            ${isActive ? '  bg-slate-200    ' : ' dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 '}`
+            ${isActive ? '  bg-slate-200    ' : '  dark:text-gray-300 dark:hover:bg-gray-800 '}`
             }
             >
               <BiSolidCategory className="mr-3" />
@@ -51,7 +51,7 @@ const SideBar = () => {
             to="/settings" 
             className={({ isActive }) =>
               `flex items-center p-2 rounded-lg hover:bg-gray-200  text-gray-600 
-            ${isActive ? '  bg-slate-200    ' : ' dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 '}`
+            ${isActive ? '  bg-slate-200    ' : '  dark:text-gray-300 dark:hover:bg-gray-800 '}`
             }
             >
               <AiOutlineSetting className="mr-3" />
@@ -96,7 +96,7 @@ const SideBar = () => {
           </li>
         </ul>
       </nav>
-      <div className="mt-auto p-4 bg-white shadow-2xl dark:bg-gray-700 rounded-lg text-center">
+      <div className="mt-auto p-4 bg-white shadow-2xl dark:bg-gray-800 rounded-lg text-center">
         <div className="flex justify-center mb-4 ">
           <FaQuestionCircle className="text-gray-500 dark:text-gray-300" size={27} />
         </div>

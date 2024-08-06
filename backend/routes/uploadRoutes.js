@@ -79,7 +79,11 @@ router.get('/books', (request, response) => {
     const data = readBooksFile();
     let allBooks = [];
     for (const category in data.categories) {
-      allBooks = allBooks.concat(data.categories[category]);
+      const booksWithCategory = data.categories[category].map(book => ({
+        ...book,
+        category,
+      }));
+      allBooks = allBooks.concat(booksWithCategory);
     }
     return response.status(200).json(allBooks);
   } catch (error) {
@@ -87,6 +91,32 @@ router.get('/books', (request, response) => {
     response.status(500).send({ message: error.message });
   }
 });
+
+
+// Add this route in your uploadRoutes.js file
+
+router.get('/books/:id', (request, response) => {
+  try {
+    const data = readBooksFile();
+    const bookId = parseInt(request.params.id, 10);
+    let book = null;
+    for (const category in data.categories) {
+      const foundBook = data.categories[category].find(book => book.id === bookId);
+      if (foundBook) {
+        book = foundBook;
+        break;
+      }
+    }
+    if (!book) {
+      return response.status(404).json({ message: "Book not found" });
+    }
+    return response.status(200).json(book);
+  } catch (error) {
+    console.error('Error fetching book:', error);
+    response.status(500).send({ message: error.message });
+  }
+});
+
 
 // Get books by category
 router.get('/category/:category', (request, response) => {
