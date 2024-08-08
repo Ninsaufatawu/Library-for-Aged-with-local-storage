@@ -12,12 +12,12 @@ const activities = [
 
 const FeaturedSection = () => {
   return (
-    <div className="flex justify-end p-4 h-screen flex-col dark:bg-gray-700">
-      <div className=" -top-12 relative ">
+    <div className="flex justify-end p-4 h-screen flex-col bg-slate-50 dark:bg-gray-700">
+      <div className=" bottom-10 relative ">
         <ProfileSection/>
       </div>
-      <div className="w-80 dark:bg-gray-800">
-        <div className="bg-white p-4 rounded-lg shadow-md dark:bg-gray-800 dark:text-white">
+      <div className=" w-72 reative pb-5 ">
+        <div className="bg-white p-4 rounded-lg shadow-md dark:bg-gray-800 dark:text-white ">
           <h2 className="text-xl font-semibold mb-4 dark:bg-gray-800">Featured Creators</h2>
           <div className="flex items-center mb-4 dark:bg-gray-800 dark:text-white">
             <img 
@@ -34,8 +34,8 @@ const FeaturedSection = () => {
           </div>
         </div>
 
-        <div className="bg-white p-4 rounded-lg shadow-md mt-4 dark:bg-gray-800">
-          <h2 className="text-xl font-semibold mb-4 dark:text-white">Recent Activity</h2>
+        <div className="bg-white p-4 rounded-lg shadow-md mt-4 dark:bg-gray-800 relative top-4">
+          <h2 className="text-xl font-semibold mb-4 dark:text-white">Recent Books Read</h2>
           {activities.map(activity => (
             <div key={activity.id} className="flex items-center mb-4 dark:text-white">
               <img 
@@ -47,9 +47,7 @@ const FeaturedSection = () => {
                 <h3 className="text-lg font-semibold">{activity.name}</h3>
                 <p className="text-gray-500">From {activity.from}</p>
               </div>
-              <div className="text-lg font-semibold">
-                <span>{activity.eth}</span> ETH
-              </div>
+              
             </div>
           ))}
         </div>

@@ -42,7 +42,7 @@ const SideBar = () => {
             }
             >
               <BiSolidCategory className="mr-3" />
-              <span>Categories</span>
+              <span>News & Events</span>
             </NavLink>
           </li>
           <li>
