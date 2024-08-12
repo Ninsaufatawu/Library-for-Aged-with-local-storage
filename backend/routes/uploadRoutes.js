@@ -77,20 +77,31 @@ router.post("/:category", (request, response) => {
 router.get('/books', (request, response) => {
   try {
     const data = readBooksFile();
+    const { category } = request.query;  // Get category from query parameters
     let allBooks = [];
-    for (const category in data.categories) {
-      const booksWithCategory = data.categories[category].map(book => ({
+
+    // Collect all books with their categories
+    for (const cat in data.categories) {
+      const booksWithCategory = data.categories[cat].map(book => ({
         ...book,
-        category,
+        category: cat,
       }));
       allBooks = allBooks.concat(booksWithCategory);
     }
+
+    // If a category is specified, filter books by that category
+    if (category) {
+      allBooks = allBooks.filter(book => book.category === category);
+    }
+
+    // Respond with either all books or the filtered list
     return response.status(200).json(allBooks);
   } catch (error) {
     console.error('Error getting books:', error);
     response.status(500).send({ message: error.message });
   }
 });
+
 
 
 // Add this route in your uploadRoutes.js file

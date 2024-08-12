@@ -1,6 +1,54 @@
 {
   "categories": {
-    "science": [
+    "Trending Books": [
+      
+      {
+        "id": 1723237911367,
+        "title": "jdjdjdjd",
+        "author": "dkdkdkd",
+        "description": "dkdkdkk",
+        "published": "kdkdkd",
+        "image": "1723237911040-31 Queer Fantasy_Sci-fi Books That Should Be On Your Radar.jpeg",
+        "pdf": "1723237911080-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723237944505,
+        "title": "jjakaka",
+        "author": "jdjdjd",
+        "description": "dkdkddk",
+        "published": "dkdkd",
+        "image": "1723237944201-How to Use Colors in Marketing and Advertising.jpeg",
+        "pdf": "1723237944230-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      },
+      {
+        "id": 1723237975937,
+        "title": "ppopqpqpdpd;c;lsavj",
+        "author": "xczk;hjlkvc",
+        "description": "k;cvkxzcz",
+        "published": "kx;chlhzhckxv",
+        "image": "1723237975885-23 science fiction and fantasy book covers that are out of this world - 99designs.jpeg",
+        "pdf": "1723237975903-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238010730,
+        "title": "baba",
+        "author": "idiid",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238010635-23 science fiction and fantasy book covers that are out of this world - 99designs (1).jpeg",
+        "pdf": "1723238010696-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238045133,
+        "title": "nana",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238044989-Things We Never Got Over.jpeg",
+        "pdf": "1723238044993-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      }
+    ],
+    "Politics": [
       {
         "id": 1722635629706,
         "title": "ninsau",
@@ -27,44 +75,392 @@
         "published": "jsjsjjjsjsjs",
         "image": "1722642274843-JourneyOfSouls.jpg",
         "pdf": "1722642274911-power.pdf"
-      }
-    ],
-    "politics": [
+      },
       {
-        "id": 1722635535679,
+        "id": 1723206416535,
+        "title": "power",
+        "author": "micheal",
+        "description": "for for light weight items",
+        "published": "2023",
+        "image": "1723206412770-power.png",
+        "pdf": "1723206412807-power.pdf"
+      },
+      {
+        "id": 1723237911367,
+        "title": "jdjdjdjd",
+        "author": "dkdkdkd",
+        "description": "dkdkdkk",
+        "published": "kdkdkd",
+        "image": "1723237911040-31 Queer Fantasy_Sci-fi Books That Should Be On Your Radar.jpeg",
+        "pdf": "1723237911080-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723237944505,
+        "title": "jjakaka",
+        "author": "jdjdjd",
+        "description": "dkdkddk",
+        "published": "dkdkd",
+        "image": "1723237944201-How to Use Colors in Marketing and Advertising.jpeg",
+        "pdf": "1723237944230-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      },
+      {
+        "id": 1723237975937,
+        "title": "ppopqpqpdpd;c;lsavj",
+        "author": "xczk;hjlkvc",
+        "description": "k;cvkxzcz",
+        "published": "kx;chlhzhckxv",
+        "image": "1723237975885-23 science fiction and fantasy book covers that are out of this world - 99designs.jpeg",
+        "pdf": "1723237975903-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238010730,
         "title": "baba",
+        "author": "idiid",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238010635-23 science fiction and fantasy book covers that are out of this world - 99designs (1).jpeg",
+        "pdf": "1723238010696-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238045133,
+        "title": "nana",
         "author": "ninsau",
         "description": "for for light weight items",
         "published": "jsjjsjjjjsjsj",
-        "image": "1722635535148-JourneyOfSouls.jpg",
-        "pdf": "1722635535150-JourneyOfSouls.pdf"
+        "image": "1723238044989-Things We Never Got Over.jpeg",
+        "pdf": "1723238044993-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      }
+    ],
+    "Romance": [
+      {
+        "id": 1722635629706,
+        "title": "ninsau",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "ss",
+        "image": "1722635629531-JourneyOfSouls.jpg",
+        "pdf": "1722635629533-JourneyOfSouls.pdf"
       },
       {
-        "id": 1722635806526,
-        "title": "nin",
-        "author": "ss",
+        "id": 1722636428247,
+        "title": "babz",
+        "author": "my",
         "description": "for heavy items",
         "published": "ss",
-        "image": "1722635805751-JourneyOfSouls.jpg",
-        "pdf": "1722635805753-JourneyOfSouls.pdf"
+        "image": "1722636427956-JourneyOfSouls.jpg",
+        "pdf": "1722636427958-JourneyOfSouls.pdf"
       },
       {
-        "id": 1722636966153,
-        "title": "baba",
-        "author": "nin",
+        "id": 1722642275786,
+        "title": "man",
+        "author": "deff",
         "description": "for for light weight items",
-        "published": "a",
-        "image": "1722636965969-JourneyOfSouls.jpg",
-        "pdf": "1722636965971-JourneyOfSouls.pdf"
+        "published": "jsjsjjjsjsjs",
+        "image": "1722642274843-JourneyOfSouls.jpg",
+        "pdf": "1722642274911-power.pdf"
       },
       {
-        "id": 1722637083706,
-        "title": "nam",
-        "author": "a",
-        "description": "jjsjsjsjs",
-        "published": "3938",
-        "image": "1722637083549-JourneyOfSouls.jpg",
-        "pdf": "1722637083550-JourneyOfSouls.pdf"
+        "id": 1723206416535,
+        "title": "power",
+        "author": "micheal",
+        "description": "for for light weight items",
+        "published": "2023",
+        "image": "1723206412770-power.png",
+        "pdf": "1723206412807-power.pdf"
+      },
+      {
+        "id": 1723237911367,
+        "title": "jdjdjdjd",
+        "author": "dkdkdkd",
+        "description": "dkdkdkk",
+        "published": "kdkdkd",
+        "image": "1723237911040-31 Queer Fantasy_Sci-fi Books That Should Be On Your Radar.jpeg",
+        "pdf": "1723237911080-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723237944505,
+        "title": "jjakaka",
+        "author": "jdjdjd",
+        "description": "dkdkddk",
+        "published": "dkdkd",
+        "image": "1723237944201-How to Use Colors in Marketing and Advertising.jpeg",
+        "pdf": "1723237944230-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      },
+      {
+        "id": 1723237975937,
+        "title": "ppopqpqpdpd;c;lsavj",
+        "author": "xczk;hjlkvc",
+        "description": "k;cvkxzcz",
+        "published": "kx;chlhzhckxv",
+        "image": "1723237975885-23 science fiction and fantasy book covers that are out of this world - 99designs.jpeg",
+        "pdf": "1723237975903-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238010730,
+        "title": "baba",
+        "author": "idiid",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238010635-23 science fiction and fantasy book covers that are out of this world - 99designs (1).jpeg",
+        "pdf": "1723238010696-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238045133,
+        "title": "nana",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238044989-Things We Never Got Over.jpeg",
+        "pdf": "1723238044993-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      }
+    ],
+    "Fiction": [
+      {
+        "id": 1722635629706,
+        "title": "ninsau",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "ss",
+        "image": "1722635629531-JourneyOfSouls.jpg",
+        "pdf": "1722635629533-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722636428247,
+        "title": "babz",
+        "author": "my",
+        "description": "for heavy items",
+        "published": "ss",
+        "image": "1722636427956-JourneyOfSouls.jpg",
+        "pdf": "1722636427958-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722642275786,
+        "title": "man",
+        "author": "deff",
+        "description": "for for light weight items",
+        "published": "jsjsjjjsjsjs",
+        "image": "1722642274843-JourneyOfSouls.jpg",
+        "pdf": "1722642274911-power.pdf"
+      },
+      {
+        "id": 1723206416535,
+        "title": "power",
+        "author": "micheal",
+        "description": "for for light weight items",
+        "published": "2023",
+        "image": "1723206412770-power.png",
+        "pdf": "1723206412807-power.pdf"
+      },
+      {
+        "id": 1723237911367,
+        "title": "jdjdjdjd",
+        "author": "dkdkdkd",
+        "description": "dkdkdkk",
+        "published": "kdkdkd",
+        "image": "1723237911040-31 Queer Fantasy_Sci-fi Books That Should Be On Your Radar.jpeg",
+        "pdf": "1723237911080-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723237944505,
+        "title": "jjakaka",
+        "author": "jdjdjd",
+        "description": "dkdkddk",
+        "published": "dkdkd",
+        "image": "1723237944201-How to Use Colors in Marketing and Advertising.jpeg",
+        "pdf": "1723237944230-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      },
+      {
+        "id": 1723237975937,
+        "title": "ppopqpqpdpd;c;lsavj",
+        "author": "xczk;hjlkvc",
+        "description": "k;cvkxzcz",
+        "published": "kx;chlhzhckxv",
+        "image": "1723237975885-23 science fiction and fantasy book covers that are out of this world - 99designs.jpeg",
+        "pdf": "1723237975903-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238010730,
+        "title": "baba",
+        "author": "idiid",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238010635-23 science fiction and fantasy book covers that are out of this world - 99designs (1).jpeg",
+        "pdf": "1723238010696-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238045133,
+        "title": "nana",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238044989-Things We Never Got Over.jpeg",
+        "pdf": "1723238044993-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      }
+    ],
+    "Health": [
+      {
+        "id": 1722635629706,
+        "title": "ninsau",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "ss",
+        "image": "1722635629531-JourneyOfSouls.jpg",
+        "pdf": "1722635629533-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722636428247,
+        "title": "babz",
+        "author": "my",
+        "description": "for heavy items",
+        "published": "ss",
+        "image": "1722636427956-JourneyOfSouls.jpg",
+        "pdf": "1722636427958-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722642275786,
+        "title": "man",
+        "author": "deff",
+        "description": "for for light weight items",
+        "published": "jsjsjjjsjsjs",
+        "image": "1722642274843-JourneyOfSouls.jpg",
+        "pdf": "1722642274911-power.pdf"
+      },
+      {
+        "id": 1723206416535,
+        "title": "power",
+        "author": "micheal",
+        "description": "for for light weight items",
+        "published": "2023",
+        "image": "1723206412770-power.png",
+        "pdf": "1723206412807-power.pdf"
+      },
+      {
+        "id": 1723237911367,
+        "title": "jdjdjdjd",
+        "author": "dkdkdkd",
+        "description": "dkdkdkk",
+        "published": "kdkdkd",
+        "image": "1723237911040-31 Queer Fantasy_Sci-fi Books That Should Be On Your Radar.jpeg",
+        "pdf": "1723237911080-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723237944505,
+        "title": "jjakaka",
+        "author": "jdjdjd",
+        "description": "dkdkddk",
+        "published": "dkdkd",
+        "image": "1723237944201-How to Use Colors in Marketing and Advertising.jpeg",
+        "pdf": "1723237944230-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      },
+      {
+        "id": 1723237975937,
+        "title": "ppopqpqpdpd;c;lsavj",
+        "author": "xczk;hjlkvc",
+        "description": "k;cvkxzcz",
+        "published": "kx;chlhzhckxv",
+        "image": "1723237975885-23 science fiction and fantasy book covers that are out of this world - 99designs.jpeg",
+        "pdf": "1723237975903-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238010730,
+        "title": "baba",
+        "author": "idiid",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238010635-23 science fiction and fantasy book covers that are out of this world - 99designs (1).jpeg",
+        "pdf": "1723238010696-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238045133,
+        "title": "nana",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238044989-Things We Never Got Over.jpeg",
+        "pdf": "1723238044993-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      }
+    ],
+    "Science ": [
+      {
+        "id": 1722635629706,
+        "title": "ninsau",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "ss",
+        "image": "1722635629531-JourneyOfSouls.jpg",
+        "pdf": "1722635629533-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722636428247,
+        "title": "babz",
+        "author": "my",
+        "description": "for heavy items",
+        "published": "ss",
+        "image": "1722636427956-JourneyOfSouls.jpg",
+        "pdf": "1722636427958-JourneyOfSouls.pdf"
+      },
+      {
+        "id": 1722642275786,
+        "title": "man",
+        "author": "deff",
+        "description": "for for light weight items",
+        "published": "jsjsjjjsjsjs",
+        "image": "1722642274843-JourneyOfSouls.jpg",
+        "pdf": "1722642274911-power.pdf"
+      },
+      {
+        "id": 1723206416535,
+        "title": "power",
+        "author": "micheal",
+        "description": "for for light weight items",
+        "published": "2023",
+        "image": "1723206412770-power.png",
+        "pdf": "1723206412807-power.pdf"
+      },
+      {
+        "id": 1723237911367,
+        "title": "jdjdjdjd",
+        "author": "dkdkdkd",
+        "description": "dkdkdkk",
+        "published": "kdkdkd",
+        "image": "1723237911040-31 Queer Fantasy_Sci-fi Books That Should Be On Your Radar.jpeg",
+        "pdf": "1723237911080-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723237944505,
+        "title": "jjakaka",
+        "author": "jdjdjd",
+        "description": "dkdkddk",
+        "published": "dkdkd",
+        "image": "1723237944201-How to Use Colors in Marketing and Advertising.jpeg",
+        "pdf": "1723237944230-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
+      },
+      {
+        "id": 1723237975937,
+        "title": "ppopqpqpdpd;c;lsavj",
+        "author": "xczk;hjlkvc",
+        "description": "k;cvkxzcz",
+        "published": "kx;chlhzhckxv",
+        "image": "1723237975885-23 science fiction and fantasy book covers that are out of this world - 99designs.jpeg",
+        "pdf": "1723237975903-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238010730,
+        "title": "baba",
+        "author": "idiid",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238010635-23 science fiction and fantasy book covers that are out of this world - 99designs (1).jpeg",
+        "pdf": "1723238010696-AGYAPADEÆ_ A Blueprint of How The Akyem Mafia Plots to Takeover Ghana!.pdf"
+      },
+      {
+        "id": 1723238045133,
+        "title": "nana",
+        "author": "ninsau",
+        "description": "for for light weight items",
+        "published": "jsjjsjjjjsjsj",
+        "image": "1723238044989-Things We Never Got Over.jpeg",
+        "pdf": "1723238044993-Agyapadie-Akufo-Addo-NPP-Akyem-Secret-book-on-Ghana-capture.pdf"
       }
     ]
   }

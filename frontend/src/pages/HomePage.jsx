@@ -1,6 +1,7 @@
-import FeaturedSection from "../components/FeaturedSection";
+
 import { Home } from "../components/Home";
 import SideBar from "../components/SideBar";
+import FeaturedSection from '../components/FeaturedSection'
 
 export const HomePage = () => {
   return (
@@ -31,7 +32,7 @@ export const HomePage = () => {
 
       {/* Listening bar on the far right */}
       <div className="h-full">
-        <FeaturedSection />
+        <FeaturedSection/>
       </div>
     </div>
   );

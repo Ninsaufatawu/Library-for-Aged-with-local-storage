@@ -1,6 +1,7 @@
 // Categories.js
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import Navbar from '../components/Navbar';
 
 function Categories() {
   const [categories, setCategories] = useState([]);
@@ -72,7 +73,13 @@ function Categories() {
   );
 
   return (
+    <>
+    <div>
+      <Navbar/>
+    </div>
+
     <div className="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 p-4">
+
       <h2 className="text-2xl font-bold mb-4">Categories</h2>
       
       <input
@@ -116,6 +123,8 @@ function Categories() {
         )}
       </ul>
     </div>
+
+    </>
   );
 }
 

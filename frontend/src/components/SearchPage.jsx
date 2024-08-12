@@ -32,9 +32,9 @@ const SearchPage = () => {
   }, [location.search]);
 
   return (
-    <div className="flex">
+    <div className="flex z-10">
       <SideBar />
-      <div className='p-8'>
+      <div className=''>
         <h2 className="text-2xl font-bold mb-4">Search results for "{query}"</h2> {/* Display the search query */}
         {results.length === 0 ? (
           <div className="text-xl">No results found for "{query}" in the library.</div>
@@ -50,6 +50,7 @@ const SearchPage = () => {
               </div>
             ))}
           </div>
+          
         )}
       </div>
     </div>

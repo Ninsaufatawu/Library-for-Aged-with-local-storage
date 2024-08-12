@@ -57,7 +57,7 @@ function SearchBook({ categories, books, setBooks }) {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-lg flex-1 lg:w-1/2">
+    <div className="bg-white dark:bg-gray-800 p-3 mb-8 rounded-lg shadow-lg flex-1 lg:w-1/2">
       <h2 className="text-2xl font-bold mb-4 text-center dark:text-white">Search Books</h2>
       <div className="mb-4">
         <label htmlFor="searchTerm" className="block text-lg font-medium dark:text-white">Search</label>

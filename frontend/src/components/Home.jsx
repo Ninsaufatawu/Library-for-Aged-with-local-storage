@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react';
-
 import Banner from "./Banner";
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import {SearchBar} from './SearchBar';
+import { SearchBar } from './SearchBar';
 
 export const Home = () => {
   const [booksByCategory, setBooksByCategory] = useState({});
@@ -29,41 +28,43 @@ export const Home = () => {
   }, []);
 
   return (
-    <div className="overflow-y-scroll  p-9 pt-2 dark:bg-gray-800">
+    <div className="overflow-y-scroll dark:bg-gray-800">
       <div className="dark:text-white">
-        <div>
+        <div className='fixed w-full dark:h-16 h-16 z-20 bg-white'>
           <SearchBar />
         </div>
-        <div>
-          <Banner />
-        </div>
-        
-        <div className=' pt-4'> 
-        {Object.keys(booksByCategory).map(category => (
-          <div key={category}>
-            <h2 className="text-2xl font-bold mb-4 pt-3">{category}</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-              {booksByCategory[category].map((book) => (
-                <div key={book.id} className="bg-white dark:bg-slate-700 p-2 rounded-xl drop-shadow-2xl">
-                  <Link to={`/book/${book.id}`}>
-                    <div className=" ">
-                      {book.image && <img src={`http://localhost:8000/uploads/${book.image}`} alt={book.title}  />}
-                    </div>
-                    <h3 className="text-xl font-bold">
-                      {book.title}
-                    </h3>
-                    <p>By: {book.author}</p>
-                    
-                  </Link>
-                  
-                  
-                </div>
-              ))}
-            </div>
+        <div className='p-8'>
+          <div className='pt-24'>
+            <Banner />
           </div>
-        ))}
+          {Object.keys(booksByCategory).map(category => (
+            <div key={category}>
+              <h2 className="text-2xl font-bold mb-4 pt-10">
+                <Link to={`/category/${category}`}>
+                  {category}
+                </Link>
+              </h2>
+              <div className="overflow-x-scroll w-full flex gap-20" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+                {booksByCategory[category].map((book) => (
+                  <div key={book.id} className="rounded-xl drop-shadow-2xl w-36">
+                    <Link to={`/book/${book.id}`}>
+                      <div className="relative gap-1 justify-center text-center pt-4">
+                        {book.image && (
+                          <img src={`http://localhost:8000/uploads/${book.image}`} alt={book.title} className='w-52 h-48 object-fit' />
+                        )}
+                      </div>
+                      <div className='pt-5'>
+                        <button className="p-2 border justify-center text-lg dark:bg-slate-800 text-center rounded-md w-36 bg-blue-600 text-white">
+                          Read More
+                        </button>
+                      </div>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
-        
       </div>
     </div>
   );
